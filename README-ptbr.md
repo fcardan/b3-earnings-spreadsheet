@@ -4,7 +4,7 @@
 
 [![🔥 Siga no GitHub](https://img.shields.io/badge/👉🏼-GitHub-white)](https://www.github.com/fcardan)
 [![🔥 Siga no Linkedin](https://img.shields.io/badge/👉🏼-Linkedin-blue)](https://www.linkedin.com/in/fcardan)
-[![⭐ en-US](https://img.shields.io/badge/👉🏼-PtBr-green)](https://github.com/fcardan/b3-earnings-spreadsheet/main/blob/README.md)
+[![⭐ en-us](https://img.shields.io/badge/👉🏼-EnUS-red)](https://github.com/fcardan/b3-earnings-spreadsheet)
 [![⭐ Estrelas](https://img.shields.io/github/stars/fcardan/b3-earnings-spreadsheet)](https://github.com/fcardan/b3-earnings-spreadsheet)
 
 Ferramenta em Python para analisar e visualizar dados de rendimentos de investimentos na B3 (bolsa de valores brasileira), incluindo dividendos, juros sobre capital próprio (JCP) e rendimentos de fundos imobiliários (FII).
