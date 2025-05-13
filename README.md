@@ -110,7 +110,7 @@ python proventosreport.py
 _The graphs generated below were extracted from the test values._
 
 ![pie-chart](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/earningreport-dt.jpg)
-![ev-chart](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/earningreport-ev.jpg)
+![ev-chart](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/earningreport-link.jpg)
 
 ---
 
