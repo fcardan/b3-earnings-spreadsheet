@@ -11,30 +11,30 @@
 A Python tool to analyze and visualize investment income data from B3 (Brazilian stock exchange), including dividends, interest, and real estate fund (FII) distributions.
 
 ## 🔹Table of Contents
-- [Overview](#🔹overview)
-- [Problem Solved](#🔹problem-solved)
-- [Features](#🔹features)
-- [Tech Stack](#🔹tech-stack)
-- [Installation](#🔹installation)
-- [Configuration](#🔹configuration)
-- [Usage](#🔹usage)
-- [License](#🔹license)
+- [Overview](#overview)
+- [Problem Solved](#problem-solved)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [License](#license)
 
-## 🔹Overview
+## Overview
 Automates investment income analysis by generating:
 - Consolidated reports by asset and event type
 - Monthly evolution charts
 - Tax declaration guidelines
 - Top payer identification
 
-## 🔹Problem Solved
+## Problem Solved
 Simplifies manual processes of:
 1. Aggregating income from multiple sources
 2. Calculating totals by asset and period
 3. Generating analysis visualizations
 4. Preparing fiscal declaration data
 
-## 🔹Features
+## Features
 ✅ Consolidated Overview  
 ✅ Monthly Summary with Charts  
 ✅ Top Payers by Category  
@@ -42,16 +42,16 @@ Simplifies manual processes of:
 ✅ Automatic Value Formatting  
 ✅ Excel Compatibility (.xlsx)
 
-## 🔹Tech Stack
+## Tech Stack
 - **Python 3.10+**: Core logic
 - **Pandas**: Data processing
 - **Matplotlib**: Chart generation
 - **Openpyxl**: Excel integration
 
-## 🔹Installation
+## Installation
 ```bash
 # Clone repository
-git clone https://github.com/your-user/proventos-report.git
+git clone https://github.com/fcardan/b3-earnings-spreadsheet.git
 
 # Install dependencies
 pip install pandas openpyxl matplotlib
@@ -61,21 +61,37 @@ pip install -r requirements.txt
 
 ```
 
-## 🔹Configuration
+## Configuration
 - Place your spreadsheet in project folder
-- Rename to proventosb3.xlsx
-- Expected spreadsheet structure:
-  - Columns: Product, Payment, Event Type, Net Value
+- You can config the constants:
+```bash
+# Caminhos de arquivo
+INPUT_PATH: str = 'proventosb3.xlsx'
+OUTPUT_PATH: str = 'resumo_proventos.xlsx'
 
-## 🔹Usage
+# Nomes de planilhas
+SHEET_VISAO: str = 'Visão Geral'
+SHEET_RESUMO: str = 'Resumo Anual'
+SHEET_IR: str = 'Imposto de Renda'
+
+# Colunas esperadas no DataFrame
+COLUNA_PRODUTO: str = 'Produto'
+COLUNA_VALOR: str = 'Valor líquido'
+COLUNA_TIPO: str = 'Tipo de Evento'
+COLUNA_TICKER: str = 'Ticker'
+COLUNA_MES: str = 'Mês'
+COLUNA_DATA: str = 'Pagamento'
+```
+
+## Usage
 ```bash
 # Run script (Windows)
 python proventosreport.py
 ```
 
-## 🔹Generated Output
-- resumo_proventos.xlsx (3 sheets)
+## Generated Output
+- new spreadsheet: resumo_proventos.xlsx (3 sheets)
 - Console logs
 
-## 🔹License
+## License
 This repository is licensed. This means you are free to share and adapt this content for any purpose, even commercially, as long as you provide appropriate credit to the original author. For more details, please refer to the [LICENSE.md](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/LICENSE.md) file.
