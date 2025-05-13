@@ -4,9 +4,8 @@
 
 [![🔥 Follow my GitHub](https://img.shields.io/badge/👉🏼-GitHub-white)](https://www.github.com/fcardan)
 [![🔥 Follow my Linkedin](https://img.shields.io/badge/👉🏼-Linkedin-blue)](https://www.linkedin.com/in/fcardan)
-[![⭐ pt-br](https://img.shields.io/badge/👉🏼-PtBr-green)](https://github.com/fcardan/b3-earnings-spreadsheet/main/blob/README-ptbr.md)
+[![⭐ pt-br](https://img.shields.io/badge/👉🏼-PtBr-green)](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/README-ptbr.md)
 [![⭐ Star](https://img.shields.io/github/stars/fcardan/b3-earnings-spreadsheet)](https://github.com/fcardan/b3-earnings-spreadsheet)
-
 
 A Python tool to analyze and visualize investment income data from B3 (Brazilian stock exchange), including dividends, interest, and real estate fund (FII) distributions.
 
@@ -20,6 +19,8 @@ A Python tool to analyze and visualize investment income data from B3 (Brazilian
 - [Usage](#usage)
 - [License](#license)
 
+---
+
 ## Overview
 Automates investment income analysis by generating:
 - Consolidated reports by asset and event type
@@ -27,12 +28,16 @@ Automates investment income analysis by generating:
 - Tax declaration guidelines
 - Top payer identification
 
+---
+
 ## Problem Solved
 Simplifies manual processes of:
 1. Aggregating income from multiple sources
 2. Calculating totals by asset and period
 3. Generating analysis visualizations
 4. Preparing fiscal declaration data
+
+---
 
 ## Features
 ✅ Consolidated Overview  
@@ -42,11 +47,15 @@ Simplifies manual processes of:
 ✅ Automatic Value Formatting  
 ✅ Excel Compatibility (.xlsx)
 
+---
+
 ## Tech Stack
 - **Python 3.10+**: Core logic
 - **Pandas**: Data processing
 - **Matplotlib**: Chart generation
 - **Openpyxl**: Excel integration
+
+---
 
 ## Installation
 ```bash
@@ -58,8 +67,9 @@ pip install pandas openpyxl matplotlib
 
 # OR Install
 pip install -r requirements.txt
-
 ```
+
+---
 
 ## Configuration
 - Place your spreadsheet in project folder
@@ -83,15 +93,26 @@ COLUNA_MES: str = 'Mês'
 COLUNA_DATA: str = 'Pagamento'
 ```
 
+---
+
 ## Usage
 ```bash
 # Run script (Windows)
 python proventosreport.py
 ```
 
+---
+
 ## Generated Output
 - new spreadsheet: resumo_proventos.xlsx (3 sheets)
 - Console logs
+
+_The graphs generated below were extracted from the test values._
+
+![pie-chart](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/earningreport-dt.jpg)
+![ev-chart](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/earningreport-ev.jpg)
+
+---
 
 ## License
 This repository is licensed. This means you are free to share and adapt this content for any purpose, even commercially, as long as you provide appropriate credit to the original author. For more details, please refer to the [LICENSE.md](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/LICENSE.md) file.
