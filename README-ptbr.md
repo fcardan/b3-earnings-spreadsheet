@@ -78,16 +78,18 @@ pip install -r requirements.txt
 - Configure as constantes conforme necessário:
 
 ```python
-# Caminhos de arquivos
+# [DATA :: RAW] - Nome do seu arquivo
 INPUT_PATH: str = 'proventosb3.xlsx'
+
+# [DATA :: PROCESSED] - Nome do arquivo final
 OUTPUT_PATH: str = 'resumo_proventos.xlsx'
 
-# Nomes das abas
+# Planilha Final - Nome das Abas
 SHEET_VISAO: str = 'Visão Geral'
 SHEET_RESUMO: str = 'Resumo Anual'
 SHEET_IR: str = 'Imposto de Renda'
 
-# Colunas esperadas no DataFrame
+# Planilha Final - Nome das Colunas
 COLUNA_PRODUTO: str = 'Produto'
 COLUNA_VALOR: str = 'Valor líquido'
 COLUNA_TIPO: str = 'Tipo de Evento'
