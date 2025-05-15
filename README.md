@@ -60,16 +60,18 @@ Simplifies manual processes of:
 - Place your spreadsheet in project folder
 - You can config the constants:
 ```bash
-# Caminhos de arquivo
+# [DATA :: RAW] - Name of your file
 INPUT_PATH: str = 'proventosb3.xlsx'
+
+# [DATA :: PROCESSED] - Final file name
 OUTPUT_PATH: str = 'resumo_proventos.xlsx'
 
-# Nomes de planilhas
+# Source Spreadsheet - Column Names
 SHEET_VISAO: str = 'Visão Geral'
 SHEET_RESUMO: str = 'Resumo Anual'
 SHEET_IR: str = 'Imposto de Renda'
 
-# Colunas esperadas no DataFrame
+# Final Spreadsheet - Tab Names
 COLUNA_PRODUTO: str = 'Produto'
 COLUNA_VALOR: str = 'Valor líquido'
 COLUNA_TIPO: str = 'Tipo de Evento'
