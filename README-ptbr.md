@@ -16,9 +16,9 @@ Ferramenta em Python para analisar e visualizar dados de rendimentos de investim
 - [Problema Resolvido](#problema-resolvido)
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Instalação](#instalação)
 - [Configuração](#configuração)
-- [Uso](#uso)
+- [Instalação e Uso](#instalação-e-uso)
+- [Saída Gerada](#saída-gerada)
 - [Licença](#licença)
 
 ---
@@ -59,20 +59,6 @@ Simplifica os processos manuais de:
 
 ---
 
-## Instalação
-```bash
-# Clonar o repositório
-git clone https://github.com/fcardan/b3-earnings-spreadsheet.git
-
-# Instalar dependências
-pip install pandas openpyxl matplotlib
-
-# OU instale tudo via arquivo de requisitos
-pip install -r requirements.txt
-```
-
----
-
 ## Configuração
 - Coloque sua planilha na pasta do projeto
 - Configure as constantes conforme necessário:
@@ -100,9 +86,56 @@ COLUNA_DATA: str = 'Pagamento'
 
 ---
 
-## Como usar
+## Instalação e Uso
+
+Siga os passos abaixo para instalar e executar o projeto de forma correta, seja no Windows, Linux ou macOS:
+
+#### 1. Clone o repositório
+
+Baixe os arquivos do projeto com o comando abaixo. Isso criará uma nova pasta chamada `b3-earnings-spreadsheet`.
+
 ```bash
-# Executar script (Windows)
+git clone https://github.com/fcardan/b3-earnings-spreadsheet.git
+```
+
+#### 2. Acesse a pasta do projeto
+Entre na pasta clonada:
+
+```bash
+cd b3-earnings-spreadsheet
+```
+
+#### 3. Instale as dependências
+Você pode instalar as bibliotecas manualmente:
+
+```bash
+pip install pandas openpyxl matplotlib
+```
+
+Ou, de forma mais prática, usando o arquivo de requisitos:
+
+```bash
+pip install -r requirements.txt
+```
+
+#### 4. Verifique o diretório atual
+Certifique-se de que está dentro da pasta onde o arquivo earningsreport.py está localizado. Você pode usar:
+
+```bash
+ls  # Linux/macOS
+dir # Windows
+```
+
+#### 5. Execute o script
+Execute o script conforme seu sistema operacional:
+
+✅ Para Linux/macOS:
+```bash
+python3 earningsreport.py
+```
+
+✅ Para Windows:
+```bash
 python earningsreport.py
 ```
 
