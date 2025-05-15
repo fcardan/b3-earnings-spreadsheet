@@ -14,9 +14,8 @@ A Python tool to analyze and visualize investment income data from B3 (Brazilian
 - [Problem Solved](#problem-solved)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Installation](#installation)
 - [Configuration](#configuration)
-- [Usage](#usage)
+- [Installation and Usage](#installation-and-usage)
 - [License](#license)
 
 ---
@@ -57,20 +56,6 @@ Simplifies manual processes of:
 
 ---
 
-## Installation
-```bash
-# Clone repository
-git clone https://github.com/fcardan/b3-earnings-spreadsheet.git
-
-# Install dependencies
-pip install pandas openpyxl matplotlib
-
-# OR Install
-pip install -r requirements.txt
-```
-
----
-
 ## Configuration
 - Place your spreadsheet in project folder
 - You can config the constants:
@@ -95,10 +80,58 @@ COLUNA_DATA: str = 'Pagamento'
 
 ---
 
-## Usage
+## Installation and Usage
+
+Follow the steps below to properly install and run the project on Windows, Linux, or macOS:
+
+#### 1. Clone the repository
+
+Download the project files using the command below. This will create a new folder named `b3-earnings-spreadsheet`.
+
 ```bash
-# Run script (Windows)
-python proventosreport.py
+git clone https://github.com/fcardan/b3-earnings-spreadsheet.git
+```
+
+#### 2. Navigate to the project folder
+Enter the cloned folder:
+
+```bash
+cd b3-earnings-spreadsheet
+```
+
+#### 3. Install dependencies
+You can install the required libraries manually:
+
+```bash
+pip install pandas openpyxl matplotlib
+```
+
+Or, more conveniently, use the requirements file:
+
+```bash
+pip install -r requirements.txt
+```
+
+#### 4. Check your current directory
+Make sure you're inside the folder where the earningsreport.py file is located. You can check with:
+
+```bash
+ls  # Linux/macOS
+dir # Windows
+```
+#### 5. Run the script
+Run the script according to your operating system:
+
+✅ For Linux/macOS:
+
+```bash
+python3 earningsreport.py
+```
+
+✅ For Windows:
+
+```bash
+python earningsreport.py
 ```
 
 ---
