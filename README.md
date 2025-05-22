@@ -149,5 +149,16 @@ _The graphs generated below were extracted from the test values._
 
 ---
 
+## Thanks for checking it out ❤️
+### Did you like the project?
+
+- ➡️ **Follow**: [@fcardan](https://github.com/fcardan)
+
+- *️⃣ **Star**: Give it a star to support future updates!  
+
+- 🔀 **Fork**: Fork it to customize for your needs!
+
+---
+
 ## License
 This repository is licensed. This means you are free to share and adapt this content for any purpose, even commercially, as long as you provide appropriate credit to the original author. For more details, please refer to the [LICENSE.md](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/LICENSE.md) file.
