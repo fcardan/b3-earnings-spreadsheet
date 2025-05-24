@@ -16,6 +16,7 @@ A Python tool to analyze and visualize investment income data from B3 (Brazilian
 - [Tech Stack](#tech-stack)
 - [Configuration](#configuration)
 - [Installation and Usage](#installation-and-usage)
+- [Workflow](#workflow)
 - [License](#license)
 
 ---
@@ -153,23 +154,21 @@ _The graphs generated below were extracted from the test values._
 
 ![project-workflow](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/earningreport-workflow.png)
 
-### Step 1: Downloading Data
+### Step 1️⃣: Downloading Data
 
 - **Visit the B3 website**  
    Go to [https://www.b3.com.br](https://www.b3.com.br) and log in to your account.
 - **Export your dividends history**  
    Download the Excel file (e.g. `history_spreadsheet.xlsx`) containing all your proventos (dividends and distributions).
 
----
-
-### Step 2: Processing Data
+### Step 2️⃣: Processing Data
 
 - Clone this repository
 - Read Excel: the script loads your raw file into a Pandas DataFrame.
 - Process Data: it cleans, aggregates and calculates key metrics.
 - Generate Statistics: computes totals, ratios and trends for each asset.
 
-### Step 3: Generating Report
+### Step 3️⃣: Generating Report
 **Export new Excel**
 
 After processing, the script writes a new workbook new_spreadsheet.xlsx containing:
