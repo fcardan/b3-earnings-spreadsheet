@@ -149,6 +149,39 @@ _The graphs generated below were extracted from the test values._
 
 ---
 
+## Workflow
+
+![project-workflow](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/earningreport-workflow.png)
+
+### Step 1: Downloading Data
+
+- **Visit the B3 website**  
+   Go to [https://www.b3.com.br](https://www.b3.com.br) and log in to your account.
+- **Export your dividends history**  
+   Download the Excel file (e.g. `history_spreadsheet.xlsx`) containing all your proventos (dividends and distributions).
+
+---
+
+### Step 2: Processing Data
+
+- Clone this repository
+- Read Excel: the script loads your raw file into a Pandas DataFrame.
+- Process Data: it cleans, aggregates and calculates key metrics.
+- Generate Statistics: computes totals, ratios and trends for each asset.
+
+### Step 3: Generating Report
+**Export new Excel**
+
+After processing, the script writes a new workbook new_spreadsheet.xlsx containing:
+
+- Summary sheet with aggregated proventos per ticker and period
+
+- Charts illustrating monthly and top‑5 distributions
+
+- Open new_spreadsheet.xlsx in Excel or any spreadsheet tool to review your updated portfolio income report.
+
+---
+
 ## Thanks for checking it out ❤️
 ### Did you like the project?
 
