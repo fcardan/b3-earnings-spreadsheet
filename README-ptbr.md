@@ -19,6 +19,7 @@ Ferramenta em Python para analisar e visualizar dados de rendimentos de investim
 - [Configuração](#configuração)
 - [Instalação e Uso](#instalação-e-uso)
 - [Saída Gerada](#saída-gerada)
+- [Fluxo de Trabalho](#fluxo-de-trabalho)
 - [Licença](#licença)
 
 ---
@@ -149,6 +150,37 @@ _Os gráficos gerados abaixo foram extraído de valores testes._
 
 ![pie-chart](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/earningreport-dt.jpg)
 ![ev-chart](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/earningreport-link.jpg)
+
+---
+
+## Fluxo de Trabalho
+
+![fluxo-do-projeto](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/earningreport-workflow.png)
+
+### Passo 1️⃣: Baixar os Dados
+
+- **Acesse o site da B3**  
+   Vá para [https://www.b3.com.br](https://www.b3.com.br) e faça login na sua conta.
+- **Exporte seu histórico de proventos**  
+   Baixe o arquivo Excel (ex. `planilha_historico.xlsx`) contendo todos os seus proventos (dividendos e distribuições).
+
+### Passo 2️⃣: Processar os Dados
+
+- Clone este repositório
+- Ler Excel: o script carrega seu arquivo bruto em um DataFrame do Pandas.
+- Processar Dados: realiza limpeza, agregação e cálculo de métricas-chave.
+- Gerar Estatísticas: calcula totais, índices e tendências para cada ativo.
+
+### Passo 3️⃣: Gerar Relatório
+**Exportar nova planilha Excel**
+
+Após o processamento, o script gera um novo arquivo `nova_planilha.xlsx` contendo:
+
+- Resumo com proventos agregados por ticker e período
+
+- Gráficos ilustrando distribuições mensais e top‑5
+
+- Abra `nova_planilha.xlsx` no Excel ou qualquer ferramenta de planilha para analisar seu relatório de rendimentos atualizado.
 
 ---
 
