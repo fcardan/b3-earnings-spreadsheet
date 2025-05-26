@@ -116,7 +116,7 @@ pip install -r requirements.txt
 ```
 
 #### 4. Check your current directory
-Make sure you're inside the folder where the earningsreport.py file is located. You can check with:
+Make sure you're inside the folder where the earningreport.py file is located. You can check with:
 
 ```bash
 ls  # Linux/macOS
@@ -128,13 +128,13 @@ Run the script according to your operating system:
 ✅ For Linux/macOS:
 
 ```bash
-python3 earningsreport.py
+python3 earningreport.py
 ```
 
 ✅ For Windows:
 
 ```bash
-python earningsreport.py
+python earningreport.py
 ```
 
 ---
@@ -145,14 +145,14 @@ python earningsreport.py
 
 _The graphs generated below were extracted from the test values._
 
-![pie-chart](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/earningreport-dt.jpg)
-![ev-chart](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/earningreport-link.jpg)
+![pie-chart](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/docs/assets/earningreport-dt.jpg)
+![ev-chart](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/docs/assets/earningreport-link.jpg)
 
 ---
 
 ## Workflow
 
-![project-workflow](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/earningreport-workflow.png)
+![project-workflow](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/docs/assets/earningreport-workflow.png)
 
 ### Step 1️⃣: Downloading Data
 
