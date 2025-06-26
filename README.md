@@ -156,10 +156,32 @@ _The graphs generated below were extracted from the test values._
 
 ### Step 1️⃣: Downloading Data
 
-- **Visit the B3 website**  
-   Go to [https://www.b3.com.br](https://www.b3.com.br) and log in to your account.
-- **Export your dividends history**  
-   Download the Excel file (e.g. `history_spreadsheet.xlsx`) containing all your proventos (dividends and distributions).
+- **Access B3 Investor Portal**
+  
+   Visit https://www.investidor.b3.com.br/login and authenticate with your credentials
+
+- **Navigate to dividend records**
+  
+   Go to https://www.investidor.b3.com.br/proventos/recebidos
+
+- **Configure time filter**
+  
+   Select the full previous calendar year (January through December)
+
+- **Apply event filters**
+  
+   - Dividend payments
+   - Interest on equity (Juros sobre Capital Próprio)
+   - Earnings distributions (Rendimentos)
+
+- **Filter asset types**
+  
+   - Stocks (Ações)
+   - Real Estate Funds (Fundos Imobiliários)
+
+- **Export data**
+  
+   Download the Excel file (e.g. dividend_history.xlsx) containing your complete income records
 
 ### Step 2️⃣: Processing Data
 
