@@ -157,12 +157,28 @@ _Os gráficos gerados abaixo foram extraído de valores testes._
 
 ![fluxo-do-projeto](https://github.com/fcardan/b3-earnings-spreadsheet/blob/main/docs/assets/earningreport-workflow.png)
 
-### Passo 1️⃣: Baixar os Dados
+### Passo 1️⃣: Baixando os dados  
 
-- **Acesse o site da B3**  
-   Vá para [https://www.b3.com.br](https://www.b3.com.br) e faça login na sua conta.
-- **Exporte seu histórico de proventos**  
-   Baixe o arquivo Excel (ex. `planilha_historico.xlsx`) contendo todos os seus proventos (dividendos e distribuições).
+- **Acessar o Portal do Investidor B3**  
+  Visite https://www.investidor.b3.com.br/login e autentique-se com suas credenciais  
+
+- **Navegar até os registros de proventos**  
+  Acesse https://www.investidor.b3.com.br/proventos/recebidos  
+
+- **Configurar filtro temporal**  
+  Selecione o **ano anterior completo** (período de janeiro a dezembro)  
+
+- **Aplicar filtros de eventos**
+  - Dividendos  
+  - Juros sobre Capital Próprio  
+  - Rendimentos  
+
+- **Filtrar tipos de ativos**
+  - Ações  
+  - Fundos Imobiliários  
+
+- **Exportar dados**  
+  Baixe o arquivo Excel (ex: historico_proventos.xlsx) com seus registros completos de rendimentos
 
 ### Passo 2️⃣: Processar os Dados
 
